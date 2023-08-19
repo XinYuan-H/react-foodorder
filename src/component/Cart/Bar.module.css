@@ -1,0 +1,35 @@
+.Bar{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 700rem;
+    height: 80rem;
+    background-color: rgb(62, 61, 61);
+    bottom: 30rem;
+    border-radius: 10rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9999;
+}
+.Price{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    margin-left: 30rem;
+    font-size: 36rem;
+    font-weight: bold;
+    border-radius: 20rem;
+}
+
+.Price::before{
+    content: "NT$";
+    font-size: 28rem;
+}
+.Btn{
+    border: 0;
+    width:200rem;
+    border-radius: 10rem;
+    background-color: rgb(202, 164, 26);
+    font-size: 36rem;
+}

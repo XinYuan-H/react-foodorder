@@ -1,0 +1,36 @@
+.ItemBox{
+    display: flex;
+    width: 300rem;
+    height: 100rem;
+}
+
+.Img{
+    width: 150rem;
+}
+.Img img{
+    width: 100%;
+    
+}
+
+.Desc{
+    flex: auto;
+    margin-left: 20rem;
+}
+
+.Title{
+    font-weight: 36rem;
+}
+
+.PriceOuter{
+    display: flex;
+    justify-content: space-between;
+    width: 200rem;
+}
+
+.Price{
+    font-size: 16rem;
+}
+
+.Price::before{
+    content:"NT$" ;
+}

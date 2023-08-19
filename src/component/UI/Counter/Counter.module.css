@@ -1,0 +1,26 @@
+.CountBox{
+    display: flex;
+    align-items: center;
+}
+
+.Sub,
+.Add{
+   border: none;
+   background-color: #FCBF49;
+   line-height: 40rem;
+   width: 40rem;
+   height: 40rem;
+   border-radius: 50%;
+   font-size: 20rem;
+   padding: 0;
+}
+
+.Sub{
+    background-color: aliceblue;
+    border: 1px solid gray;
+}
+
+.Count{
+    font-size: 12rem;
+    margin: 10rem;
+}
