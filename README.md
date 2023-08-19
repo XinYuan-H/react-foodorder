@@ -8,7 +8,7 @@
 
 # 使用React結合module.css與各式Hooks function來實現點餐功能
 
--結構為頂端：Filter實現過濾功能
+-      結構為頂端：Filter實現過濾功能
 -      中間：Meals_list放入各式餐點
 -      尾端:加入購物車與結帳頁面
 
